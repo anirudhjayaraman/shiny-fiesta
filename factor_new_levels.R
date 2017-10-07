@@ -1,5 +1,4 @@
 library(data.table)
-library(ROCR)
 
 train <- fread('train.csv')
 test <- fread('test.csv')
